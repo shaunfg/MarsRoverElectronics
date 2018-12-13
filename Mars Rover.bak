@@ -448,10 +448,6 @@ Wire Wire Line
 	-5200 6200 -5100 6200
 Wire Wire Line
 	-5200 6100 -6300 6100
-Wire Wire Line
-	-5100 6050 -6500 6050
-Wire Wire Line
-	-6500 6050 -6500 6100
 $Comp
 L power:GND #PWR?
 U 1 1 5C090D4C
@@ -480,9 +476,6 @@ Wire Wire Line
 Wire Wire Line
 	-6300 6100 -6300 6450
 Connection ~ -6550 6450
-Wire Wire Line
-	-6500 5950 -6500 6050
-Connection ~ -6500 6050
 $Comp
 L Device:R R?
 U 1 1 5C094C45
@@ -776,8 +769,6 @@ Wire Wire Line
 	-2050 5200 -2050 5250
 Connection ~ -2050 5200
 Wire Wire Line
-	-7350 4800 -2050 4800
-Wire Wire Line
 	-4100 5200 -2600 5200
 $Comp
 L Device:C C?
@@ -924,16 +915,16 @@ Wire Wire Line
 $Comp
 L pspice:DIODE D?
 U 1 1 5C0E81FE
-P -3750 5550
-F 0 "D?" H -3750 5815 50  0000 C CNN
-F 1 "DIODE" H -3750 5724 50  0000 C CNN
-F 2 "" H -3750 5550 50  0001 C CNN
-F 3 "~" H -3750 5550 50  0001 C CNN
-	1    -3750 5550
+P -3600 5550
+F 0 "D?" H -3600 5815 50  0000 C CNN
+F 1 "DIODE" H -3600 5724 50  0000 C CNN
+F 2 "" H -3600 5550 50  0001 C CNN
+F 3 "~" H -3600 5550 50  0001 C CNN
+	1    -3600 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4100 5550 -3950 5550
+	-4100 5550 -3800 5550
 $Comp
 L Device:C C?
 U 1 1 5C0F1AAF
@@ -953,8 +944,6 @@ Wire Wire Line
 	-4000 6100 -4100 6100
 Connection ~ -4000 6100
 Wire Wire Line
-	-3550 5550 -3400 5550
-Wire Wire Line
 	-3400 5550 -3400 5650
 Wire Wire Line
 	-4100 5650 -3400 5650
@@ -964,7 +953,7 @@ Wire Wire Line
 Wire Wire Line
 	-3750 6100 -3750 6850
 Wire Wire Line
-	-4000 6100 -3750 6100
+	-4000 6100 -3800 6100
 Wire Wire Line
 	-3750 6850 -3400 6850
 $Comp
@@ -983,4 +972,57 @@ Wire Wire Line
 Connection ~ -3400 6850
 Wire Wire Line
 	-2400 6950 -2400 6850
+Wire Wire Line
+	-6500 5950 -6500 6100
+Text Label -5450 6050 0    50   ~ 0
+CHRG_VL
+Wire Wire Line
+	-5100 6050 -5450 6050
+Text Label -4100 5550 0    50   ~ 0
+CHRG_VL
+Wire Wire Line
+	-7400 4800 -2050 4800
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C0B3BF5
+P -3800 6250
+F 0 "D?" H -3800 6034 50  0000 C CNN
+F 1 "D_Schottky" H -3800 6125 50  0000 C CNN
+F 2 "" H -3800 6250 50  0001 C CNN
+F 3 "~" H -3800 6250 50  0001 C CNN
+	1    -3800 6250
+	0    1    1    0   
+$EndComp
+Connection ~ -3800 6100
+Wire Wire Line
+	-3800 6100 -3750 6100
+Wire Wire Line
+	-4100 6350 -4100 6400
+Wire Wire Line
+	-4100 6400 -3850 6400
+$Comp
+L power:GND #PWR?
+U 1 1 5C0B7E2F
+P -3850 6400
+F 0 "#PWR?" H -3850 6150 50  0001 C CNN
+F 1 "GND" H -3845 6227 50  0000 C CNN
+F 2 "" H -3850 6400 50  0001 C CNN
+F 3 "" H -3850 6400 50  0001 C CNN
+	1    -3850 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ -3850 6400
+Wire Wire Line
+	-3850 6400 -3800 6400
+$Comp
+L Device:R R?
+U 1 1 5C0B8E08
+P -5700 2350
+F 0 "R?" H -5630 2396 50  0000 L CNN
+F 1 "R" H -5630 2305 50  0000 L CNN
+F 2 "" V -5770 2350 50  0001 C CNN
+F 3 "~" H -5700 2350 50  0001 C CNN
+	1    -5700 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
