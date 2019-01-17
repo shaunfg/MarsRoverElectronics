@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 3 14
 Title ""
 Date ""
 Rev ""
@@ -20,6 +20,11 @@ U 1 1 5BE4B1AE
 P 5650 3450
 AR Path="/5BE4B1AE" Ref="M?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1AE" Ref="M?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1AE" Ref="M?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1AE" Ref="M?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1AE" Ref="M?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1AE" Ref="M?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1AE" Ref="M?"  Part="1" 
 F 0 "M?" V 5945 3400 50  0000 C CNN
 F 1 "Motor_DC" V 5854 3400 50  0000 C CNN
 F 2 "" H 5650 3360 50  0001 C CNN
@@ -33,6 +38,11 @@ U 1 1 5BE4B1B5
 P 5250 3750
 AR Path="/5BE4B1B5" Ref="D?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1B5" Ref="D?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1B5" Ref="D?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1B5" Ref="D?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1B5" Ref="D?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1B5" Ref="D?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1B5" Ref="D?"  Part="1" 
 F 0 "D?" V 5296 3622 50  0000 R CNN
 F 1 "DIODE" V 5205 3622 50  0000 R CNN
 F 2 "" H 5250 3750 50  0001 C CNN
@@ -46,6 +56,11 @@ U 1 1 5BE4B1BC
 P 6150 3750
 AR Path="/5BE4B1BC" Ref="D?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1BC" Ref="D?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1BC" Ref="D?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1BC" Ref="D?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1BC" Ref="D?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1BC" Ref="D?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1BC" Ref="D?"  Part="1" 
 F 0 "D?" V 6196 3622 50  0000 R CNN
 F 1 "DIODE" V 6105 3622 50  0000 R CNN
 F 2 "" H 6150 3750 50  0001 C CNN
@@ -59,6 +74,11 @@ U 1 1 5BE4B1C3
 P 6150 3050
 AR Path="/5BE4B1C3" Ref="D?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1C3" Ref="D?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1C3" Ref="D?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1C3" Ref="D?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1C3" Ref="D?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1C3" Ref="D?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1C3" Ref="D?"  Part="1" 
 F 0 "D?" V 6196 2922 50  0000 R CNN
 F 1 "DIODE" V 6105 2922 50  0000 R CNN
 F 2 "" H 6150 3050 50  0001 C CNN
@@ -72,6 +92,11 @@ U 1 1 5BE4B1CA
 P 5250 3050
 AR Path="/5BE4B1CA" Ref="D?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1CA" Ref="D?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1CA" Ref="D?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1CA" Ref="D?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1CA" Ref="D?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1CA" Ref="D?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1CA" Ref="D?"  Part="1" 
 F 0 "D?" V 5296 2922 50  0000 R CNN
 F 1 "DIODE" V 5205 2922 50  0000 R CNN
 F 2 "" H 5250 3050 50  0001 C CNN
@@ -87,6 +112,11 @@ U 1 1 5BE4B1D2
 P 5250 3950
 AR Path="/5BE4B1D2" Ref="#PWR?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1D2" Ref="#PWR?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1D2" Ref="#PWR?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1D2" Ref="#PWR?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1D2" Ref="#PWR?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1D2" Ref="#PWR?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1D2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5250 3700 50  0001 C CNN
 F 1 "GND" H 5255 3777 50  0000 C CNN
 F 2 "" H 5250 3950 50  0001 C CNN
@@ -100,6 +130,11 @@ U 1 1 5BE4B1D8
 P 6150 3950
 AR Path="/5BE4B1D8" Ref="#PWR?"  Part="1" 
 AR Path="/5BE4AF70/5BE4B1D8" Ref="#PWR?"  Part="1" 
+AR Path="/5C45D71B/5BE4B1D8" Ref="#PWR?"  Part="1" 
+AR Path="/5C45DA60/5BE4B1D8" Ref="#PWR?"  Part="1" 
+AR Path="/5C45DEFD/5BE4B1D8" Ref="#PWR?"  Part="1" 
+AR Path="/5C45F77E/5BE4B1D8" Ref="#PWR?"  Part="1" 
+AR Path="/5C45FA40/5BE4B1D8" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6150 3700 50  0001 C CNN
 F 1 "GND" H 6155 3777 50  0000 C CNN
 F 2 "" H 6150 3950 50  0001 C CNN
@@ -121,11 +156,7 @@ Wire Wire Line
 Connection ~ 6150 3450
 Wire Wire Line
 	5250 2850 6150 2850
-Wire Wire Line
-	4800 2850 5250 2850
 Connection ~ 5250 2850
-Text HLabel 4800 2850 0    50   Input ~ 0
-VIN
 Wire Wire Line
 	5100 3450 5250 3450
 Wire Wire Line
@@ -134,4 +165,21 @@ Text HLabel 5100 3450 0    50   Input ~ 0
 V1
 Text HLabel 6250 3450 2    50   Input ~ 0
 V2
+$Comp
+L power:+12V #PWR?
+U 1 1 5C45D4C4
+P 5250 2850
+AR Path="/5BE4AF70/5C45D4C4" Ref="#PWR?"  Part="1" 
+AR Path="/5C45D71B/5C45D4C4" Ref="#PWR?"  Part="1" 
+AR Path="/5C45DA60/5C45D4C4" Ref="#PWR?"  Part="1" 
+AR Path="/5C45DEFD/5C45D4C4" Ref="#PWR?"  Part="1" 
+AR Path="/5C45F77E/5C45D4C4" Ref="#PWR?"  Part="1" 
+AR Path="/5C45FA40/5C45D4C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 2700 50  0001 C CNN
+F 1 "+12V" H 5265 3023 50  0000 C CNN
+F 2 "" H 5250 2850 50  0001 C CNN
+F 3 "" H 5250 2850 50  0001 C CNN
+	1    5250 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
