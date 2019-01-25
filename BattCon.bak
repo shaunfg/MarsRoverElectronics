@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 14
+Sheet 6 14
 Title ""
 Date ""
 Rev ""
@@ -782,102 +782,24 @@ F 3 "" H 6650 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5C44D2AC
-P 7450 4750
-AR Path="/5C44D2AC" Ref="J?"  Part="1" 
-AR Path="/5C44C34C/5C44D2AC" Ref="J?"  Part="1" 
-F 0 "J?" H 7530 4792 50  0000 L CNN
-F 1 "Conn_01x03" H 7530 4701 50  0000 L CNN
-F 2 "" H 7450 4750 50  0001 C CNN
-F 3 "~" H 7450 4750 50  0001 C CNN
-	1    7450 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 4350 7000 4350
-Wire Wire Line
-	7000 4350 7000 4650
-Wire Wire Line
-	7000 4650 7200 4650
-Wire Wire Line
-	6800 4500 6800 4750
-Wire Wire Line
-	6800 4750 7250 4750
-Wire Wire Line
-	6450 4850 7100 4850
-$Comp
 L power:GND #PWR?
 U 1 1 5C44D2B9
-P 7100 4850
+P 6450 4850
 AR Path="/5C44D2B9" Ref="#PWR?"  Part="1" 
 AR Path="/5C44C34C/5C44D2B9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7100 4600 50  0001 C CNN
-F 1 "GND" H 7105 4677 50  0000 C CNN
-F 2 "" H 7100 4850 50  0001 C CNN
-F 3 "" H 7100 4850 50  0001 C CNN
-	1    7100 4850
+F 0 "#PWR?" H 6450 4600 50  0001 C CNN
+F 1 "GND" H 6455 4677 50  0000 C CNN
+F 2 "" H 6450 4850 50  0001 C CNN
+F 3 "" H 6450 4850 50  0001 C CNN
+	1    6450 4850
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 4850
-Wire Wire Line
-	7100 4850 7250 4850
-$Comp
-L Device:CP1 C?
-U 1 1 5C44D2C1
-P 7950 5300
-AR Path="/5C44D2C1" Ref="C?"  Part="1" 
-AR Path="/5C44C34C/5C44D2C1" Ref="C?"  Part="1" 
-F 0 "C?" H 8065 5346 50  0000 L CNN
-F 1 "22uF" H 8065 5255 50  0000 L CNN
-F 2 "" H 7950 5300 50  0001 C CNN
-F 3 "~" H 7950 5300 50  0001 C CNN
-	1    7950 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 4650 7200 4550
-Wire Wire Line
-	7200 4550 7950 4550
-Wire Wire Line
-	7950 4550 7950 5150
-Connection ~ 7200 4650
-Wire Wire Line
-	7200 4650 7250 4650
-$Comp
-L Device:C C?
-U 1 1 5C44D2CD
-P 8300 5300
-AR Path="/5C44D2CD" Ref="C?"  Part="1" 
-AR Path="/5C44C34C/5C44D2CD" Ref="C?"  Part="1" 
-F 0 "C?" H 8185 5254 50  0000 R CNN
-F 1 "0.1uF" H 8185 5345 50  0000 R CNN
-F 2 "" H 8338 5150 50  0001 C CNN
-F 3 "~" H 8300 5300 50  0001 C CNN
-	1    8300 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8300 5150 7950 5150
-Connection ~ 7950 5150
-$Comp
-L power:GND #PWR?
-U 1 1 5C44D2D6
-P 7950 5450
-AR Path="/5C44D2D6" Ref="#PWR?"  Part="1" 
-AR Path="/5C44C34C/5C44D2D6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7950 5200 50  0001 C CNN
-F 1 "GND" H 7955 5277 50  0000 C CNN
-F 2 "" H 7950 5450 50  0001 C CNN
-F 3 "" H 7950 5450 50  0001 C CNN
-	1    7950 5450
-	1    0    0    -1  
-$EndComp
-Connection ~ 7950 5450
-Wire Wire Line
-	8300 5450 7950 5450
 Text HLabel 10000 3450 2    50   Input ~ 0
 BATT_OUT
 Text HLabel 2300 2750 0    50   Input ~ 0
 VIN
+Text HLabel 6800 4350 2    50   Input ~ 0
+BATT
+Text HLabel 6800 4500 2    50   Input ~ 0
+THERM
 $EndSCHEMATC

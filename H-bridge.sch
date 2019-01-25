@@ -213,10 +213,10 @@ Wire Wire Line
 Text Notes 2350 2250 0    50   ~ 0
 Not sure if there is a better way to label the IN 1,2,3,4 \n
 Wire Wire Line
-	5350 4200 5350 4500
+	5350 4200 5350 4350
 Text HLabel 5450 4500 2    50   Input ~ 0
 SENSE_B
-Text HLabel 5350 4500 0    50   Input ~ 0
+Text HLabel 4000 4550 0    50   Input ~ 0
 SENSE_A
 Wire Wire Line
 	5750 2500 6400 2500
@@ -532,6 +532,107 @@ F 1 "+5V" H 3715 2673 50  0000 C CNN
 F 2 "" H 3700 2500 50  0001 C CNN
 F 3 "" H 3700 2500 50  0001 C CNN
 	1    3700 2500
+	1    0    0    -1  
+$EndComp
+Text Notes 3100 5050 0    50   ~ 0
+TODO: check R value against HK ADC range
+$Comp
+L Amplifier_Instrumentation:INA128 U?
+U 1 1 5C4B5673
+P 4500 4550
+F 0 "U?" H 4850 4850 50  0000 L CNN
+F 1 "INA128" H 4700 4750 50  0000 L CNN
+F 2 "" H 4600 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina128.pdf" H 4600 4550 50  0001 C CNN
+	1    4500 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C4B589F
+P 4950 4550
+F 0 "R?" H 4880 4504 50  0000 R CNN
+F 1 "500R" H 4880 4595 50  0000 R CNN
+F 2 "" V 4880 4550 50  0001 C CNN
+F 3 "~" H 4950 4550 50  0001 C CNN
+	1    4950 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4700 4800 4700
+Wire Wire Line
+	4800 4700 4800 4650
+Wire Wire Line
+	4800 4450 4800 4400
+Wire Wire Line
+	4800 4400 4950 4400
+Wire Wire Line
+	4000 4550 4100 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 5C4B6CBA
+P 4500 4250
+F 0 "#PWR?" H 4500 4100 50  0001 C CNN
+F 1 "+5V" H 4515 4423 50  0000 C CNN
+F 2 "" H 4500 4250 50  0001 C CNN
+F 3 "" H 4500 4250 50  0001 C CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C4B6CEE
+P 3300 4150
+F 0 "#PWR?" H 3300 4000 50  0001 C CNN
+F 1 "+5V" H 3315 4323 50  0000 C CNN
+F 2 "" H 3300 4150 50  0001 C CNN
+F 3 "" H 3300 4150 50  0001 C CNN
+	1    3300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C4B6D58
+P 3300 4300
+F 0 "C?" H 3415 4346 50  0000 L CNN
+F 1 "100nF" H 3415 4255 50  0000 L CNN
+F 2 "" H 3338 4150 50  0001 C CNN
+F 3 "~" H 3300 4300 50  0001 C CNN
+	1    3300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4B6E7F
+P 3300 4450
+F 0 "#PWR?" H 3300 4200 50  0001 C CNN
+F 1 "GND" H 3305 4277 50  0000 C CNN
+F 2 "" H 3300 4450 50  0001 C CNN
+F 3 "" H 3300 4450 50  0001 C CNN
+	1    3300 4450
+	1    0    0    -1  
+$EndComp
+Text HLabel 4400 4850 0    50   Input ~ 0
+2V5
+Wire Wire Line
+	4800 4350 5350 4350
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4350 5350 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5C4B7865
+P 4800 4750
+AR Path="/5C4B7865" Ref="#PWR?"  Part="1" 
+AR Path="/5BE41DDF/5C4B7865" Ref="#PWR?"  Part="1" 
+AR Path="/5BE443F5/5C4B7865" Ref="#PWR?"  Part="1" 
+AR Path="/5BEEC4C8/5C4B7865" Ref="#PWR?"  Part="1" 
+AR Path="/5BEEC636/5C4B7865" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 4500 50  0001 C CNN
+F 1 "GND" H 4805 4577 50  0000 C CNN
+F 2 "" H 4800 4750 50  0001 C CNN
+F 3 "" H 4800 4750 50  0001 C CNN
+	1    4800 4750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
