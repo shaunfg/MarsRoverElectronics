@@ -22,7 +22,7 @@ AR Path="/5C4618DA" Ref="U?"  Part="1"
 AR Path="/5C46155B/5C4618DA" Ref="U1403"  Part="1" 
 F 0 "U1403" H 9150 3897 60  0000 C CNN
 F 1 "Rpi0w" H 9150 3791 60  0000 C CNN
-F 2 "" H 9150 1500 60  0001 C CNN
+F 2 "Roverschemlib:raspi0w" H 9150 1500 60  0001 C CNN
 F 3 "" H 9150 1500 60  0001 C CNN
 	1    9150 1500
 	-1   0    0    1   
@@ -48,7 +48,7 @@ AR Path="/5C4618E8" Ref="J?"  Part="1"
 AR Path="/5C46155B/5C4618E8" Ref="J1401"  Part="1" 
 F 0 "J1401" H 2200 3850 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 2200 3750 50  0000 C CNN
-F 2 "" H 2850 2500 50  0001 C CNN
+F 2 "Roverschemlib:raspi3" H 2850 2500 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2850 2500 50  0001 C CNN
 	1    2850 2500
 	1    0    0    -1  

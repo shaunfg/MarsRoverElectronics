@@ -322,7 +322,7 @@ AR Path="/5BEEC636/5C5CDC2F" Ref="U501"  Part="1"
 AR Path="/5BE41DDF/5C5CDC2F" Ref="U201"  Part="1" 
 F 0 "U201" H 4350 4817 50  0000 C CNN
 F 1 "OP279" H 4350 4726 50  0000 C CNN
-F 2 "" H 4350 4450 50  0001 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 4350 4450 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf" H 4350 4450 50  0001 C CNN
 	1    4350 4450
 	-1   0    0    -1  
@@ -336,7 +336,7 @@ AR Path="/5BEEC636/5C5CE16B" Ref="U501"  Part="2"
 AR Path="/5BE41DDF/5C5CE16B" Ref="U201"  Part="2" 
 F 0 "U201" H 4350 5917 50  0000 C CNN
 F 1 "OP279" H 4350 5826 50  0000 C CNN
-F 2 "" H 4350 5550 50  0001 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 4350 5550 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf" H 4350 5550 50  0001 C CNN
 	2    4350 5550
 	-1   0    0    -1  
@@ -350,7 +350,7 @@ AR Path="/5BEEC636/5C5CE212" Ref="U501"  Part="3"
 AR Path="/5BE41DDF/5C5CE212" Ref="U201"  Part="3" 
 F 0 "U201" H 5558 6396 50  0000 L CNN
 F 1 "OP279" H 5558 6305 50  0000 L CNN
-F 2 "" H 5600 6350 50  0001 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5600 6350 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf" H 5600 6350 50  0001 C CNN
 	3    5600 6350
 	1    0    0    -1  

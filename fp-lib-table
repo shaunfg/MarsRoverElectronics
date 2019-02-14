@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Roverschemlib)(type KiCad)(uri ${KIPRJMOD}/old-rover/lessr/libs/Roverschemlib.pretty)(options "")(descr ""))
+  (lib (name raspberrypi-gpio-40pin)(type KiCad)(uri "/Users/ShaunGan/Desktop/Mars Rover/kicad-library/template/raspberrypi-gpio-40pin")(options "")(descr ""))
 )
