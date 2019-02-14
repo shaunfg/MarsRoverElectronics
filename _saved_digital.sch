@@ -22,7 +22,7 @@ AR Path="/5C4618DA" Ref="U?"  Part="1"
 AR Path="/5C46155B/5C4618DA" Ref="U1403"  Part="1" 
 F 0 "U1403" H 9150 3897 60  0000 C CNN
 F 1 "Rpi0w" H 9150 3791 60  0000 C CNN
-F 2 "" H 9150 1500 60  0001 C CNN
+F 2 "Roverschemlib:raspi0w" H 9150 1500 60  0001 C CNN
 F 3 "" H 9150 1500 60  0001 C CNN
 	1    9150 1500
 	-1   0    0    1   

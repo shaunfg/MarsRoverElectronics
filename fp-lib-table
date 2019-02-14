@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Roverschemlib)(type KiCad)(uri ${KIPRJMOD}/old-rover/lessr/libs/Roverschemlib.pretty)(options "")(descr ""))
+)
