@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Roverschemlib)(type Legacy)(uri "/Users/ShaunGan/Desktop/Mars Rover/Mars Rover Electronics/Roverschemlib.lib")(options "")(descr ""))
+  (lib (name Mars-Rover-rescue)(type Legacy)(uri "${KIPRJMOD}/Mars Rover-rescue.lib")(options "")(descr ""))
 )

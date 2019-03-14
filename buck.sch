@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Converter_ACDC:MP2467 U?
+L Mars-Rover-rescue:MP2467-Converter_ACDC U?
 U 1 1 5BDB68AC
 P 5300 4250
 AR Path="/5BDB68AC" Ref="U?"  Part="1" 

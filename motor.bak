@@ -27,7 +27,7 @@ AR Path="/5C45F77E/5BE4B1AE" Ref="M1201"  Part="1"
 AR Path="/5C45FA40/5BE4B1AE" Ref="M1301"  Part="1" 
 F 0 "M1301" V 5945 3400 50  0000 C CNN
 F 1 "Motor_DC" V 5854 3400 50  0000 C CNN
-F 2 "" H 5650 3360 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5650 3360 50  0001 C CNN
 F 3 "~" H 5650 3360 50  0001 C CNN
 	1    5650 3450
 	0    -1   -1   0   

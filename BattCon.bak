@@ -641,7 +641,7 @@ F 3 "" H 8350 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Roverschemlib:MAX1758 U601
+L Mars-Rover-rescue:MAX1758-Roverschemlib U601
 U 1 1 5C44D2A5
 P 6500 3600
 F 0 "U601" H 6300 4715 50  0000 C CNN
